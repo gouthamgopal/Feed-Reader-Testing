@@ -102,7 +102,7 @@ $(function() {
 
         it('has added Entries', function() {
             //Gets the entry element.length and checks that it is not zero.
-            var entry = $('.entry h2');
+            var entry = $('.feed .entry');
             expect(entry.length).not.toBe(0);
         });
     });
